@@ -4,10 +4,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="./day1.css">
+    <link rel="stylesheet" href="./static/css/index.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./static/img/logo.png" type="image/x-icon">
+
     <title>Login</title>
 </head>
 <body>
@@ -38,7 +41,14 @@
                 </tr>
 
                 <tr>
-                    <td id="submit-td">
+                    <td class="rmb-td">
+                        <input type="checkbox" name="remember" id="rmb">
+                        <label for="rmb">Remember Me</label>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="submit-td">
                         <input type="submit" value="Login">
                     </td>
                 </tr>
@@ -47,6 +57,10 @@
         </form>
         <div class="bottom">
             <a href="#">Forgot password</a>
+        </div>
+        <div class="create-acc">
+            <span>Not a member?</span><br>
+            <a href="./signup.html">Create account</a>
         </div>
     </div>
 </body>
