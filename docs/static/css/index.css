@@ -30,15 +30,15 @@ body{
 }
 
 .img img{
-    width: 10ch;
-    height: 10ch;
+    width: 14.5ch;
+    height: 14ch;
     margin-bottom: 3ch;
     /* border: var(--border); */
 }
 
 .img span{
-    font-style: roboto;
-    font-size: 1.5rem;
+    font-family: Rochester;
+    font-size: 2rem;
 }
 
 td img{
