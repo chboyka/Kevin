@@ -167,4 +167,8 @@ form{
         height: 12%;
         overflow: auto;
     }
+
+    .form{
+        background-color: rgba(133, 67, 6, 0.336);
+    }
 }
