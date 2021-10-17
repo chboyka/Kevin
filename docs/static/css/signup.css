@@ -129,6 +129,16 @@ input[type="submit"]{
 #terms{
     font-size: smaller;
 }
+
+.login{
+    position: absolute;
+    top: 2ch;
+    right: 2ch;
+}
+
+.login a{
+    color: rgb(158, 98, 37);
+}
 @media (max-width:600px){
     /* .left{
         display: none;

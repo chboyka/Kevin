@@ -17,7 +17,7 @@ body{
     justify-content: start;
     align-items: center;
     height: 100vh;
-    background-color: rgba(230, 136, 48, 0.3);
+    background-color: rgba(133, 67, 6, 0.336);
     min-height: 750px;
     overflow: hidden;
 }
@@ -75,7 +75,8 @@ input[type='text'], input[type='password']{
     margin-bottom: 2ch;
     width: 70vw;
     max-width: 400px;
-    outline:2px solid peru;   
+    border:2px solid peru; 
+    outline: none;  
 }
 
 .submit-td{
