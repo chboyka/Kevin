@@ -29,7 +29,7 @@ section{
 }
 
 .left{
-    background: url("../img/left.jpg.png");
+    background: url("../img/left.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -66,10 +66,10 @@ form{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: url('../img/logo1.png');
+    background: url('../img/logo1.png');
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 40% ; */
+    background-size: 40% ;
     
     max-width: 500px;
     /* min-width: 200px; */
@@ -157,7 +157,6 @@ input[type="submit"]{
     }
 
     form{
-        /* background-size: 50%; */
         background: url('../img/logo1.png');
         background-repeat: no-repeat;
         background-position: center 25%;
